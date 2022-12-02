@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+
+  <title>Pre-work-Study-Guide</title>
+  </head>
+  <body>
+    <header id="top">
+      <h1>Prework Study Guide</h1>
+      <img src="./bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
+    </header>
+    
+    <main>
+     <section class="card" id="html-section">
+    <h2>HTML</h2>
+    </ul>
+    <li>The head element contains information about the webpage.</li>
+    <li>The body element represents the visible content shown to the user.</li>
+    <li>The meta element defines metadata such as the character set, description, keyboards, author and viewport.</li>
+    <li>The script elment embeds client side scripts in the HTML document.</li>
+    <li>The src attribute defines the location or source of the image file.</li>
+    <li>The att attribute contains a text string that describes the appearance and functionality of the image.</li>
+    </ul>
+      </section>
+
+    <section class="card" id="javascript-section">
+    <h2>javascript-section</h2>
+    <ul>
+    <li>A variable is a named container that allows us to store data in our code.</li>
+    <li>Control flow si the order in which a computer execues code in a script.</li>
+    <li>When we declare a function in our JavaScript code, we are creating a reusable block of code that performs a specific task. However, declaring a function does not mean that the code will automatically execute. We need to call the function in the code at the spot we want it to execute.</li>
+   <li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal. </li>
+   <li>A for loop contains the following three important statements:
+   <li> The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0), as shown in the following line of code:</li>
+    <li>var x = 0; The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array. We use the length built-in array property on our shapes array to express that condition,</li>
+    <li>x < shapes.length; The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1, as shown in the following line of code:
+    <li>x++ A for loop starts with—you guessed it—for. So far, our for loop looks like the following code:
+      for(var x = 0; x < shapes.length; x++) {
+       // code block
+      } </li>
+      <li> In place of an actual index number, however, we can add the variable x from our for loop. Now, each time the code runs, x will increase by 1 and the next array item will log to the console. The following code shows how this is done:
+        for(var x = 0; x < shapes.length; x++) {
+         console.log(shapes[x]);
+        } </li>
+  </ul>
+   </section>
+
+  <section class="card" id="css-section">
+   <h2>CSS</h2>
+   <ul>
+   <li>A margin indicates how much space we want around the outside of an element</li>
+   <li>A padding indicates how much space we want around the content inside an element</li>
+   <li>Assigning colors in CSS can be done in many ways, including by semantic references such as gray or blue.</li>
+   <li>In the preceding statemnt a "<link>" element creates the connection to the external file</li>
+   <li>The "rel" attribute specifies the relationship between the current document and the linked document resource.</li>
+   <li>The "href" attribute specifies the location (URL) o the external resource.</li>
+   </ul>
+   </section>
+
+   <section class="card" id="git-section">
+    <h2>Git</h2>
+    <ul>
+   <li>git status:checks what branch we are currently on</li>
+   <li>git checkout -b branc-name: creates a new beanch and switches to it</li>
+   <li>The feature/starter-code is the name of the new branch.</li>
+   <li>The -A flag indicates that we want to add all changes.</li>
+   <li>A pull request, or PR is used to merge  comparison branch (in our case, the feature branch) into the base branch.</li>
+   <li>The base branch is where the changes will be merged into, in our case the default branch, main.</li>
+    </ul>
+   </section>
+  
+
+    </li>
+   </ul>
+    </main>
+
+    <footer>
+      <p>I can code!</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
