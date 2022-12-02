@@ -31,9 +31,23 @@
     <section class="card" id="javascript-section">
     <h2>javascript-section</h2>
     <ul>
-    <li>Enter your javaScripts notes here.</li>
-      
-    </ul>
+    <li>A variable is a named container that allows us to store data in our code.</li>
+    <li>Control flow si the order in which a computer execues code in a script.</li>
+    <li>When we declare a function in our JavaScript code, we are creating a reusable block of code that performs a specific task. However, declaring a function does not mean that the code will automatically execute. We need to call the function in the code at the spot we want it to execute.</li>
+   <li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal. </li>
+   <li>A for loop contains the following three important statements:
+   <li> The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0), as shown in the following line of code:</li>
+    <li>var x = 0; The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array. We use the length built-in array property on our shapes array to express that condition,</li>
+    <li>x < shapes.length; The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1, as shown in the following line of code:
+    <li>x++ A for loop starts with—you guessed it—for. So far, our for loop looks like the following code:
+      for(var x = 0; x < shapes.length; x++) {
+       // code block
+      } </li>
+      <li> In place of an actual index number, however, we can add the variable x from our for loop. Now, each time the code runs, x will increase by 1 and the next array item will log to the console. The following code shows how this is done:
+        for(var x = 0; x < shapes.length; x++) {
+         console.log(shapes[x]);
+        } </li>
+  </ul>
    </section>
 
   <section class="card" id="css-section">
